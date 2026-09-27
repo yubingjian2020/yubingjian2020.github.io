@@ -1,0 +1,10 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "gem": true,
+        "test": true,
+        "printf": true,
+        "true": true,
+        "command": true,
+        "jekyll": true
+    }
+}

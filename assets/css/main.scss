@@ -1,0 +1,134 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.masthead {
+  display: none;
+}
+
+.page__hero--overlay {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+
+.page__hero--overlay .wrapper {
+  max-width: 1180px;
+  width: 100%;
+}
+
+.page__hero--overlay .page__title {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  margin-bottom: 2rem;
+  max-width: 1050px;
+}
+
+.page__hero--overlay .page__lead {
+  max-width: 1050px;
+}
+
+.hero__eyebrow,
+.hero__topics {
+  color: #9ed9c5;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.hero__summary {
+  display: inline-block;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  line-height: 1.5;
+  max-width: 1050px;
+}
+
+.hero__summary strong {
+  white-space: nowrap;
+}
+.hero__topics {
+  color: #d6e7e0;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.hero__links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.hero__links a {
+  border-bottom: 1px solid rgba(158, 217, 197, 0.6);
+  color: #f4f7f5;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding-bottom: 0.25rem;
+  text-decoration: none;
+}
+
+.hero__links a:hover {
+  border-color: #9ed9c5;
+  color: #9ed9c5;
+}
+
+.hero__portrait {
+  bottom: -7vh;
+  pointer-events: none;
+  position: absolute;
+  right: 2vw;
+  width: min(34vw, 460px);
+  z-index: 0;
+}
+
+.hero__portrait img {
+  display: block;
+  filter: saturate(0.82) contrast(1.05);
+  width: 100%;
+}
+
+.page__hero--overlay .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 950px) {
+  .hero__portrait {
+    bottom: -3vh;
+    opacity: 0.3;
+    right: -18vw;
+    width: 72vw;
+  }
+
+  .page__hero--overlay .page__title {
+    max-width: 480px;
+  }
+}
+  .hero__summary strong {
+    white-space: normal;
+  }
+
+.btn--inverse {
+  border-color: #9ed9c5;
+  color: #f4f7f5;
+}
+
+.btn--inverse:hover {
+  background-color: #9ed9c5;
+  border-color: #9ed9c5;
+  color: #101820;
+}

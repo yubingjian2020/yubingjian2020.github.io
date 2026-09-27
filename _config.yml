@@ -1,0 +1,24 @@
+title: "Yubing Jian"
+description: "Staff Engineer and wireless systems architect working across connectivity, AI, and networking."
+url: "https://yubingjian.github.io"
+baseurl: ""
+repository: "yubingjian/yubingjian.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+author:
+  name: "Yubing Jian"
+  bio: "Staff Engineer | Wireless Systems Architect"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: false
+
+minimal_mistakes_skin: "dark"
