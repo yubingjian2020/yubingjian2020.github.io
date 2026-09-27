@@ -1,7 +1,7 @@
 title: "Yubing Jian"
 description: "Wireless systems architect working across connectivity, AI, and networking."
 url: "https://yubingjian2020-collab.github.io"
-baseurl: ""
+baseurl: "/yubingjian.github.io"
 repository: "yubingjian/yubingjian.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes"
