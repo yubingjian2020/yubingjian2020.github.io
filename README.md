@@ -4,7 +4,7 @@ Personal site for Yubing Jian, built with Jekyll and the Minimal Mistakes remote
 
 ## Publish with GitHub Pages
 
-1. Use the `yubingjian.github.io` repository under the `yubingjian2020-collab` organization.
+1. Use the `yubingjian2020.github.io` repository
 2. Push this repository to the `main` branch.
 3. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
 4. GitHub Pages will build the site and serve it at <https://yubingjian2020-collab.github.io/yubingjian.github.io/>.
