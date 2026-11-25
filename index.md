@@ -26,7 +26,7 @@ excerpt: >
     <a href="https://www.linkedin.com/in/yubing-jian/" target="_blank" rel="noopener">LinkedIn</a>
     <a href="https://scholar.google.com/citations?user=_onv1aoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
     <a href="https://patents.google.com/?q=%22Yubing+Jian%22" target="_blank" rel="noopener">Google Patents</a>
-    <a href="/assets/cv.pdf">CV</a>
+    <a href="assets/cv.pdf">CV</a>
   </span>
 #  <span class="hero__portrait">
 #    <img src="/assets/css/images/profile.jpg" alt="Portrait of Yubing Jian">
@@ -40,5 +40,5 @@ actions:
     url: "https://github.com/yubingjian"
 
   - label: "CV"
-    url: "/assets/cv.pdf"
+    url: "assets/cv.pdf"
 ---
